@@ -3,8 +3,8 @@
 
 ## Featured solutions
 
-| Week  | Problem Of The Week | 1st problem | 2nd problem | 3rd problem | 4th problem |
-|-------|---------------------|-------------|-------------|-------------|-------------|
+| Week  |  Problem Of The Week  |  1st problem  |  2nd problem  |  3rd problem  |  4th problem  |
+|-------|:---------------------:|:-------------:|:-------------:|:-------------:|:-------------:|
 | 1     |                     |[Build the sum]()|             |             |             |
 | 2     |                     |             |             |             |             |
 | 3     |                     |             |             |             |             |
