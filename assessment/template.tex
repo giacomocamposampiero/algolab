@@ -1,0 +1,44 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage{fullpage}
+\usepackage[top=2cm, bottom=4.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{lastpage}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{hyperref}
+ 
+\newcommand\course{Algorithms Lab HS2021}
+\newcommand\hwnumber{1}                  %  assessment number
+\newcommand\name{Name}           % name
+\newcommand\surname{Surname}           % surname
+
+\pagestyle{fancyplain}
+\headheight 35pt
+\lhead{\name}
+\lhead{\name\\\surname}                
+\chead{\textbf{\Large Assessment \hwnumber}}
+\rhead{\course \\ \today}
+\lfoot{}
+\cfoot{}
+\rfoot{\small\thepage}
+\headsep 2.5em
+
+\begin{document}
+\small
+\subsection*{Submission 100\%}
+\begin{verbatim}
+void testcase() {
+    std::cout << "Hello world!" << std::endl;
+}
+
+int main() {
+    int t; std::cin >> t;
+    for(int i=0; i<t; i++) testcase();
+}
+\end{verbatim}
+
+\end{document}
