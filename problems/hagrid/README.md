@@ -1,4 +1,4 @@
-## Week 13
-
 ### Hagrid
 Since the path from the entrance to each chamber of the underground network is unique, we're clearly dealing with a tree. The problem is to find the best visiting order of the tree, which corresponds (at least for the first 90 points) to visiting the cheaper subtrees to reach first. In fact, leaving the most expensive nodes at the end of the visit allows us to save the gold that would have been otherwise consumed during the travel upwards.
+
+Therefore, we need associate to each chamber a cost, that equals to the sum of the path lengths in the its subtree. Then, we can visit the tree to collect the gold using a custom DFS, where the children of each node are ordered on their score and visited from the lowest score to the greatest. Note that this algorithm only works the subtrees are balanced; in case they're not the shape of the subtree might influence the convience of a subtree (e.g. flat tree vs. deep tree). 
