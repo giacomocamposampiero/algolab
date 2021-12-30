@@ -5,7 +5,7 @@ A possible improvement to this solution is to pre-compute the partial sum in the
 
 Still, we can improve improve our solution even more, by observing that the sum over an interval can be even iif the difference between the partial sums in position (i-1) and j are both odd or both even. Therefore, it's possible to find out the number of even sub-intervals in a linear time, by counting the number of even and odd partial sums and then deriving the result as
 
-![equation](<img src="https://latex.codecogs.com/svg.image?even&space;&plus;&space;\frac{1}{2}\binom{even}{2}&space;&plus;&space;\frac{1}{2}\binom{odd}{2}" title="even + \frac{1}{2}\binom{even}{2} + \frac{1}{2}\binom{odd}{2}" />)
+![](https://latex.codecogs.com/svg.image?even&space;&plus;&space;\frac{1}{2}\binom{even}{2}&space;&plus;&space;\frac{1}{2}\binom{odd}{2})
 
 Note that we take half of *nC2* as the pairs are ordered (i≤j).
 
