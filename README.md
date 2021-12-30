@@ -5,8 +5,8 @@ In this course students learn how to solve algorithmic problems given by a textu
 
 | Week  |  Problem Of The Week  |  1st problem  |  2nd problem  |  3rd problem  |  4th problem  |
 |-------|:---------------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| 1     ||[Build the sum](./problems/build-sum/)|[Dominoes](./problems/dominoes/)|[Even pairs](./problems/even-pairs/)|[Even matrices](./problems/even-matrices/)|
-| 2     |                     |             |             |             |             |
+| 1     |[Build the sum](./problems/build-sum/)|[Dominoes](./problems/dominoes/)|[Even pairs](./problems/even-pairs/)|[Even matrices](./problems/even-matrices/)|
+| 2     |[Deck of Cards](./problems/deck-cards/)|             |             |             |             |
 | 3     |                     |             |             |             |             |
 | 4     |                     |             |             |             |             |
 | 5 | | | | | |
