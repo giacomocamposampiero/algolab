@@ -1,9 +1,10 @@
+///3
 #include <iostream>
 #include <vector>
 #include <cmath>
 #include <algorithm>
 
-typedef std::vector<unsigned int> P;
+typedef std::vector<int> P;
 typedef std::vector<P> Q;
 typedef std::vector<Q> R;
 typedef std::vector<R> M;
@@ -21,10 +22,13 @@ int update_gate(int gate, int fighter, int q) {
   return (q < 2)? fighter : fighter + (gate % k)*k;
 }
 
+
 int dp(std::vector<int> &fts, int p, int q, int north, int south) {
 
+  if(std::abs(p-q) > 11) return -1;
   if(p + q == n) return 0;
-  if(memo[p][q][north][south] != -2)  return memo[p][q][north][south];
+  
+  if(memo[p+q][p-q+11][north][south] != -2)  return memo[p+q][p-q+11][north][south];
   
   int fighter = fts[p+q];
   
@@ -37,18 +41,19 @@ int dp(std::vector<int> &fts, int p, int q, int north, int south) {
   int north_score = (nnext >= 0) ? nsc + nnext : -1;
   int south_score = (snext >= 0) ? ssc + snext : -1;
   
-  memo[p][q][north][south] = std::max(north_score, south_score);
-  
-  return memo[p][q][north][south];
+  memo[p+q][p-q+11][north][south] = std::max(north_score, south_score);
+  return memo[p+q][p-q+11][north][south];
 }
 
 void testcase() {
+  
   std::cin >> n >> k >> m;
   std::vector<int> fts = std::vector<int>(n,0);
   for(int i=0; i<n; i++) std::cin >> fts[i];
-  memo = M(n, R(n, Q(std::pow(k, m), P(std::pow(k, m), -2))));
+  memo = M(n, R(24, Q(k*k+1, P(k*k+1, -2))));
   int res = dp(fts, 0, 0, 0, 0);
   std::cout << res << std::endl;
+  
 }
 
 int main() {
