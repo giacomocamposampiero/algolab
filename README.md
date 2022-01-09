@@ -9,7 +9,7 @@ In this course students learn how to solve algorithmic problems given by a textu
 | 2     |[Deck of Cards](./problems/deck-cards/)|[Burning Coins](./problems/burning-coins)|[Beach Bars](./problems/beach-bars/)|[The Great Game](./problems/great-game/)|[Defensive Line](./problems/defensive-line/)|
 | 3     |[From Russia with Love](./problems/from-russia/)|[Hit](./problems/hit/)|[First Hit](./problems/first-hit/)|[Antenna](./problems/antenna/)|[Hiking Maps](./problems/hiking-maps/)|
 | 4     |[Fighting Pits of Meereen](./problems/fighting-pits-meereen/)|[First Steps with BGL](./problems/first-steps-bgl/)|[Ant Challenge](./problems/ant-challenge/)|[Buddy Selection](./problems/buddy-selection/)|[Important Bridges](./problems/important-bridges/)|
-| 5 |[Motorcycles](./problems/motorcycles)|[Boats](./problems/boats/)|[Moving Books](./problems/moving-books/)| | |
+| 5 |[Motorcycles](./problems/motorcycles)|[Boats](./problems/boats/)|[Moving Books](./problems/moving-books/)|[Severus Snape](./problems/severus-snape/)| |
 | 6 | | | | | |
 | 7 |[Octopussy](./problems/octopussy)| | | | |
 | 8 | | | | | |
