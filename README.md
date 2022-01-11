@@ -11,7 +11,7 @@ In this course students learn how to solve algorithmic problems given by a textu
 | 4     |[Fighting Pits of Meereen](./problems/fighting-pits-meereen/)|[First Steps with BGL](./problems/first-steps-bgl/)|[Ant Challenge](./problems/ant-challenge/)|[Buddy Selection](./problems/buddy-selection/)|[Important Bridges](./problems/important-bridges/)|
 | 5 |[Motorcycles](./problems/motorcycles)|[Boats](./problems/boats/)|[Moving Books](./problems/moving-books/)|[Severus Snape](./problems/severus-snape/)|[Asterix the Gaul](./problems/asterix-the-gaul/)|
 | 6 | | | | | |
-| 7 |[Octopussy](./problems/octopussy)| | | | |
+| 7 |[Octopussy](./problems/octopussy)|[Shopping](./problems/shopping/)|[Knights](./problems/knights/)|[Coin Tossing Tournament](./problems/coin-tossing-tournament/)|[London](./problems/london/)|
 | 8 | | | | | |
 | 9 | | | | | |
 | 10 | | | | | |
