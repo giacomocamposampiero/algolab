@@ -11,4 +11,3 @@ jobs:
       with:
         config-file: .github/workflows/markdown-links-config.json
         use-quiet-mode: 'yes'
-        check-modified-files-only: 'yes'
