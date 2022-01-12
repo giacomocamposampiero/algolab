@@ -13,7 +13,7 @@ In this course students learn how to solve algorithmic problems given by a textu
 | 6 |[Planet Express](./problems/planet-express/)|[What is the Maximum](./problems/what-is-the-maximum/)|[Diet](./problems/diet/)| | |
 | 7 |[Octopussy](./problems/octopussy)|[Shopping Trip](./problems/shopping-trip/)|[Knights](./problems/knights/)|[Coin Tossing Tournament](./problems/coin-tossing-tournament/)|[London](./problems/london/)|
 | 8 | | | | | |
-| 9 |[Kingdom Defence](./problems/kingdom-defenc222222e/)| | | | |
+| 9 |[Kingdom Defence](./problems/kingdom-defence/)| | | | |
 | 10 | | | | | |
 | 11 | | | | | |
 | 12 | | | | | |
