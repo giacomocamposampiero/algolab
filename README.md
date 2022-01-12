@@ -10,10 +10,10 @@ In this course students learn how to solve algorithmic problems given by a textu
 | 3     |[From Russia with Love](./problems/from-russia/)|[Hit](./problems/hit/)|[First Hit](./problems/first-hit/)|[Antenna](./problems/antenna/)|[Hiking Maps](./problems/hiking-maps/)|
 | 4     |[Fighting Pits of Meereen](./problems/fighting-pits-meereen/)|[First Steps with BGL](./problems/first-steps-bgl/)|[Ant Challenge](./problems/ant-challenge/)|[Buddy Selection](./problems/buddy-selection/)|[Important Bridges](./problems/important-bridges/)|
 | 5 |[Motorcycles](./problems/motorcycles)|[Boats](./problems/boats/)|[Moving Books](./problems/moving-books/)|[Severus Snape](./problems/severus-snape/)|[Asterix the Gaul](./problems/asterix-the-gaul/)|
-| 6 | | | | | |
+| 6 |[Planet Express](./problems/planet-express/)|[What is the Maximum](./problems/what-is-the-maximum/)|[Diet](./problems/diet/)| | |
 | 7 |[Octopussy](./problems/octopussy)|[Shopping](./problems/shopping/)|[Knights](./problems/knights/)|[Coin Tossing Tournament](./problems/coin-tossing-tournament/)|[London](./problems/london/)|
 | 8 | | | | | |
-| 9 | | | | | |
+| 9 |[Kingdom Defence](./problems/kingdom-defence/)| | | | |
 | 10 | | | | | |
 | 11 | | | | | |
 | 12 | | | | | |
