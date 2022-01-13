@@ -4,7 +4,7 @@ In this course students learn how to solve algorithmic problems given by a textu
 ## Featured solutions
 
 | Week  |  Problem Of The Week  |  1st problem  |  2nd problem  |  3rd problem  |  4th problem  |
-|-------|:---------------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+|:-----:|:---------------------:|:-------------:|:-------------:|:-------------:|:-------------:|
 | 1     ||[Build the Sum](./problems/build-sum/)|[Dominoes](./problems/dominoes/)|[Even Pairs](./problems/even-pairs/)|[Even Matrices](./problems/even-matrices/)|
 | 2     |[Deck of Cards](./problems/deck-cards/)|[Burning Coins](./problems/burning-coins)|[Beach Bars](./problems/beach-bars/)|[The Great Game](./problems/great-game/)|[Defensive Line](./problems/defensive-line/)|
 | 3     |[From Russia with Love](./problems/from-russia/)|[Hit](./problems/hit/)|[First Hit](./problems/first-hit/)|[Antenna](./problems/antenna/)|[Hiking Maps](./problems/hiking-maps/)|
