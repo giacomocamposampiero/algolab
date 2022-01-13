@@ -24,7 +24,7 @@ Now we just need the last piece of the puzzle. So far, we have the constraints t
 If we set one of the sewage coefficient (`a` in this case) to 1! Note that we don't lose any generality with this definition, as `b` and `c` still guarantee to obtain all the possible lines in our setting. And now we're done! Perpendicularity is encoded directly with our choice of coefficients and we just need to update the constraints on the norm of the distance to get our final formulation of the problem. 
 
 **Pitfalls of the problem and take-home messages**:
-- `typedef long IT;`, if you din't wanna lose hours debugging and wondering why your solution which has no faults from a theorical perspective still don't pass the single test case in test set 2 
+- `typedef long IT;`, if you don't wanna lose hours debugging and wondering why your solution which has no faults from a theorical perspective still doesn't pass that single test case in test set 2 
 - be careful with the sign of the equations for linear separation; however, since the possible combinations are limited, if you're stuck just try them all
 - keep track of constraint indices using a dedicated variable, definitely more handy
 
