@@ -19,7 +19,7 @@ observe that the length of the water pipes corresponds to the norm of the distan
 
 Now we just need the last piece of the puzzle. So far, we have the constraints that define `l_max` in terms of `y`s, but we still don't know what those `y`s are. In fact, we're still stuck with the perpendicularity problem. Let's observe better however what the `y` of the canal really is. It can be defined as
 
-![](https://latex.codecogs.com/svg.image?{y_{canal}&space;=&space;\frac{-d&space;\cdot&space;x_{house}-f}{e}&space;=&space;b&space;\cdot&space;h_{house}&space;-&space;f}" title="{y_{canal} = \frac{-d \cdot x_{house}-f}{e} = b \cdot h_{house} - f})
+![](https://latex.codecogs.com/svg.image?{y_{canal}&space;=&space;\frac{-d&space;\cdot&space;x_{house}-f}{e}&space;=&space;b&space;\cdot&space;h_{house}&space;-&space;f})
 
 If we set one of the sewage coefficient (`a` in this case) to 1! Note that we don't lose any generality with this definition, as `b` and `c` still guarantee to obtain all the possible lines in our setting. And now we're done! Perpendicularity is encoded directly with our choice of coefficients and we just need to update the constraints on the norm of the distance to get our final formulation of the problem. 
 
