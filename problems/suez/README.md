@@ -12,6 +12,9 @@ would end up having constraints <= 0, which is not correct (this is not a formal
 For the last two test sets, we have to deal with already placed rectangles, which cannot be scaled. Observe than that we don't need any variable for them, and they will just contribute to the formulation of the problem with additional constraints. As a first attempt, we could think to do the same we did for new rectangles, that is specifying a new constraint for each pair of (old, new) rectangles. However, due to the size of the old rectangle set, we would end up time limiting the
 last set. To achieve full score, we need to observe that we don't actually need to set a constraint for each pair (~10^4 constraints, way too much), because this number can be made linear in the number of new rectangles by just setting a constraint with the *closer* old rectangle. 
 
+**Pitfall**
+Remember to use `CGAL::Gmpz` and `CGAL::Gmpq` accordingly to the type of variables we need!
+
 ### Results
 ```
    Test set 1        (20 pts / 1.500 s) : Correct answer      (0.14s)
