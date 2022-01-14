@@ -9,10 +9,12 @@ In order to achieve the third set, we have to observe that the number of availab
 
 For the last test set, the implementation of split and list is required, as the exponent of the exponential part of the algorithm grows from 2^20 (borderline, but feasible) to 2^30 (definitely not achievable in the given time). By implementing split and list, the complexity would decrease to *O(n\*2^(n/2))*, again something reasonable. 
 
+**UPDATE**: split and list version achieving full score.
+
 ### Results
 ```
-   Test set 1 (20 pts / 4 s) : Correct answer      (0.193s)
-   Test set 2 (20 pts / 4 s) : Correct answer      (0.845s)
-   Test set 3 (20 pts / 4 s) : Correct answer      (3.285s)
-   Test set 4 (40 pts / 4 s) : Time limit exceeded
+   Test set 1 (20 pts / 4 s) : Correct answer      (0.003s)
+   Test set 2 (20 pts / 4 s) : Correct answer      (0.01s)
+   Test set 3 (20 pts / 4 s) : Correct answer      (0.439s)
+   Test set 4 (40 pts / 4 s) : Correct answer      (1.577s)
 ```
