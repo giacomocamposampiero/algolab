@@ -12,10 +12,10 @@ In this course students learn how to solve algorithmic problems given by a textu
 | 5 |[Motorcycles](./problems/motorcycles)|[Boats](./problems/boats/)|[Moving Books](./problems/moving-books/)|[Severus Snape](./problems/severus-snape/)|[Asterix the Gaul](./problems/asterix-the-gaul/)|
 | 6 |[Planet Express](./problems/planet-express/)|[What is the Maximum](./problems/what-is-the-maximum/)|[Diet](./problems/diet/)|[Inball](./problems/inball/)|[Lannister](./problems/lannister/)|
 | 7 |[Octopussy](./problems/octopussy)|[Shopping Trip](./problems/shopping-trip/)|[Knights](./problems/knights/)|[Coin Tossing Tournament](./problems/coin-tossing-tournament/)|[London](./problems/london/)|
-| 8 |[Suez](./problems/suez/)|[Bistro](./problems/bistro/)|[Germs](./problems/germs/)|[H1N1](./problems/h1n1/)| |
+| 8 |[Suez](./problems/suez/)|[Bistro](./problems/bistro/)|[Germs](./problems/germs/)|[H1N1](./problems/h1n1/)|[Light the Stage](./problems/light-the-stage/)|
 | 9 |[Kingdom Defence](./problems/kingdom-defence/)| | | | |
 | 10 | | | | | |
 | 11 |[Phantom Menace](./problems/phantom-menace/)| | | | |
-| 12 | | | | | |
+| 12 | |[Hong Kong](./problems/hong-kong/)| | | |
 | 13 | | | | | |
 | 14 | [India](./problems/india/)| | | | |
