@@ -14,7 +14,7 @@ In this course students learn how to solve algorithmic problems given by a textu
 | 7 |[Octopussy](./problems/octopussy)|[Shopping Trip](./problems/shopping-trip/)|[Knights](./problems/knights/)|[Coin Tossing Tournament](./problems/coin-tossing-tournament/)|[London](./problems/london/)|
 | 8 |[Suez](./problems/suez/)|[Bistro](./problems/bistro/)|[Germs](./problems/germs/)|[H1N1](./problems/h1n1/)|[Light the Stage](./problems/light-the-stage/)|
 | 9 |[Kingdom Defence](./problems/kingdom-defence/)|[Real Estate](./problems/real-estate/)|[Placing Knights](./problems/placing-knights)|[Algocoon Group](./problems/algocoon-group/)|[Canteen](./problems/canteen/)|
-| 10 | | | | | |
+| 10 | |[Worldcup](./problems/worldcup/)| | | |
 | 11 |[Phantom Menace](./problems/phantom-menace/)| | | | |
 | 12 | |[Hong Kong](./problems/hong-kong/)| | | |
 | 13 | | | | | |
