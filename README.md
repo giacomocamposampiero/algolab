@@ -19,3 +19,90 @@ In this course students learn how to solve algorithmic problems given by a textu
 | 12 | |[Hong Kong](./problems/hong-kong/)| | | |
 | 13 | | | | | |
 | 14 | [India](./problems/india/)| | | | |
+
+## Past exams
+<table>
+    <thead>
+        <tr>
+            <th>Theme</th>
+            <th>Problem</th>
+            <th>Topics</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td rowspan=3> The Adventures of Astérix </td>
+          <td> <a href="./problems/asterix-the-gaul/"> Asterix the Gaul </a> </td>
+          <td> greedy, binary search, split&list </td>
+        </tr>
+        <tr>
+          <td> <a href="./problems/asterix-in-switzerland/"> Asterix in Switzerland </a> </td>
+          <td> maximum flow </td>
+        </tr>
+        <tr>
+          <td> <a href="./problems/idefix/"> Idefix </a> </td>
+          <td> triangulation </td>
+        </tr>
+        <tr>
+          <td rowspan=2> Harry Potter </td>
+          <td> <a href="./problems/severus-snape/"> Severus Snape </a> </td>
+          <td> dynamic programming </td>
+        </tr>
+        <tr>
+          <td> <a href="./problems/hong-kong/"> Dean Thomas </a> </td>
+          <td> triangulation </td>
+        </tr>
+        <tr>
+          <td rowspan=2> Game of Thrones</td>
+          <td> <a href="./problems/fighting-pits-meereen/"> Fighting Pits of Meereen </a> </td>
+          <td> dynamic programming </td>
+        </tr>
+          <tr>
+          <td> <a href="./problems/lannister/"> Lannister </a> </td>
+          <td> linear programming </td>
+        </tr>
+        <tr>
+          <td rowspan=1> Sherlock Holmes</td>
+          <td> <a href="./problems/great-game/"> The Great Game </a> </td>
+          <td> dynamic programming </td>
+        </tr>
+        <tr>
+          <td rowspan=4> <br>Around the World in Eighty Days</br> </td>
+          <td> <a href="./problems/india/"> India </a> </td>
+          <td> maximum flow, binary search </td>
+        </tr>
+        <tr>
+          <td> <a href="./problems/hong-kong/"> Hong Kong </a> </td>
+          <td> triangulation </td>
+        </tr>
+        <tr>
+          <td> <a href="./problems/london/"> London </a> </td>
+          <td> maximum flow, characters tricks </td>
+        </tr>
+        <tr>
+          <td> <a href="./problems/suez/"> Suez </a> </td>
+          <td> linear programming </td>
+        </tr>
+        <tr>
+          <td rowspan=1> <br>Star Wars</br> </td>
+          <td> <a href="./problems/phantom-menace/"> Phantom Menace </a> </td>
+          <td> minimum cut (flows)</td>
+        </tr>
+        <tr>
+          <td rowspan=2> <center>James Bond</center> </td>
+          <td> <a href="./problems/from-russia/"> From Russia with Love </a> </td>
+          <td> dynamic programming </td>
+        </tr>
+        <tr>
+          <td> <a href="./problems/octopussy/"> Octopussy </a> </td>
+          <td> greedy, binary trees </td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+
+
+
+
