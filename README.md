@@ -15,7 +15,7 @@ In this course students learn how to solve algorithmic problems given by a textu
 | 8 |[Suez](./problems/suez/)|[Bistro](./problems/bistro/)|[Germs](./problems/germs/)|[H1N1](./problems/h1n1/)|[Light the Stage](./problems/light-the-stage/)|
 | 9 |[Kingdom Defence](./problems/kingdom-defence/)|[Real Estate](./problems/real-estate/)|[Placing Knights](./problems/placing-knights)|[Algocoon Group](./problems/algocoon-group/)|[Canteen](./problems/canteen/)|
 | 10 | |[Worldcup](./problems/worldcup/)|[Asterix in Switzerland](./problems/asterix-in-switzerland/)| | |
-| 11 |[Phantom Menace](./problems/phantom-menace/)| | | | |
+| 11 |[Phantom Menace](./problems/phantom-menace/)|[Idefix](./problems/idefix/)| | | |
 | 12 | |[Hong Kong](./problems/hong-kong/)| | | |
 | 13 | | | | | |
 | 14 | [India](./problems/india/)| | | | |
