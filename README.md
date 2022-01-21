@@ -40,12 +40,12 @@ In this course students learn how to solve algorithmic problems given by a textu
           <td> maximum flow </td>
         </tr>
         <tr>
-          <td> <a href="./problems/idefix/"> Idefix </a> </td>
-          <td> triangulation </td>
-        </tr>
-        <tr>
           <td> <a href="./problems/asterix-and-the-chariot-race/"> Asterix and the Chariot Race </a> </td>
           <td> DFS </td>
+        </tr>
+        <tr>
+          <td> <a href="./problems/idefix/"> Idefix </a> </td>
+          <td> triangulation </td>
         </tr>
         <tr>
           <td rowspan=2> Harry Potter </td>
