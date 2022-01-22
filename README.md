@@ -14,7 +14,7 @@ In this course students learn how to solve algorithmic problems given by a textu
 | 7 |[Octopussy](./problems/octopussy)|[Shopping Trip](./problems/shopping-trip/)|[Knights](./problems/knights/)|[Coin Tossing Tournament](./problems/coin-tossing-tournament/)|[London](./problems/london/)|
 | 8 |[Suez](./problems/suez/)|[Bistro](./problems/bistro/)|[Germs](./problems/germs/)|[H1N1](./problems/h1n1/)|[Light the Stage](./problems/light-the-stage/)|
 | 9 |[Kingdom Defence](./problems/kingdom-defence/)|[Real Estate](./problems/real-estate/)|[Placing Knights](./problems/placing-knights)|[Algocoon Group](./problems/algocoon-group/)|[Canteen](./problems/canteen/)|
-| 10 | |[Worldcup](./problems/worldcup/)|[Asterix in Switzerland](./problems/asterix-in-switzerland/)|[Asterix and the Chariot Race](./problems/asterix-and-the-chariot-race/)| |
+| 10 |[Golden Eye](./problems/golden-eye/)|[Worldcup](./problems/worldcup/)|[Asterix in Switzerland](./problems/asterix-in-switzerland/)|[Asterix and the Chariot Race](./problems/asterix-and-the-chariot-race/)|[Evolution](./problems/evolution/)|
 | 11 |[Phantom Menace](./problems/phantom-menace/)|[Idefix](./problems/idefix/)| | | |
 | 12 | |[Hong Kong](./problems/hong-kong/)| | | |
 | 13 | | | | | |
@@ -89,7 +89,7 @@ In this course students learn how to solve algorithmic problems given by a textu
           <td> minimum cut (flows)</td>
         </tr>
         <tr>
-          <td rowspan=2> <center>James Bond</center> </td>
+          <td rowspan=3> <center>James Bond</center> </td>
           <td> <a href="./problems/from-russia/"> From Russia with Love </a> </td>
           <td> dynamic programming </td>
         </tr>
@@ -97,6 +97,11 @@ In this course students learn how to solve algorithmic problems given by a textu
           <td> <a href="./problems/octopussy/"> Octopussy </a> </td>
           <td> greedy, binary trees </td>
         </tr>
+        <tr>
+          <td> <a href="./problems/golden-eye/"> Golden Eye </a> </td>
+          <td> greedy, binary trees </td>
+        </tr>
+
     </tbody>
 </table>
 
