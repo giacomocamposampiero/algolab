@@ -31,13 +31,17 @@ In this course students learn how to solve algorithmic problems given by a textu
     </thead>
     <tbody>
         <tr>
-          <td rowspan=3> The Adventures of Astérix </td>
+          <td rowspan=4> The Adventures of Astérix </td>
           <td> <a href="./problems/asterix-the-gaul/"> Asterix the Gaul </a> </td>
           <td> greedy, binary search, split&list </td>
         </tr>
         <tr>
           <td> <a href="./problems/asterix-in-switzerland/"> Asterix in Switzerland </a> </td>
           <td> maximum flow </td>
+        </tr>
+        <tr>
+          <td> <a href="./problems/asterix-and-the-chariot-race/"> Asterix and the Chariot Race </a> </td>
+          <td> DFS </td>
         </tr>
         <tr>
           <td> <a href="./problems/idefix/"> Idefix </a> </td>
