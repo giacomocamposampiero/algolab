@@ -103,9 +103,8 @@ In this course students learn how to solve algorithmic problems given by a textu
         </tr>
         <tr>
           <td> <a href="./problems/golden-eye/"> Golden Eye </a> </td>
-          <td> greedy, binary trees </td>
+          <td> triangulation </td>
         </tr>
-
     </tbody>
 </table>
 
