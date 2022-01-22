@@ -35,7 +35,7 @@ void testcase(){
   
   graph G(n);
   edge_adder adder(G);
-  
+
   int a, b, c;
   for(int i = 0; i < m; i++){
     cin >> a >> b >> c;
