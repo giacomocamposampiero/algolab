@@ -31,50 +31,46 @@ void testcase() {
 
   Triangulation t;
   t.insert(pts.begin(), pts.end());
-  
-  for(int i=0; i<m; i++) {
     
-    K::Point_2 p(ptc[i].x, ptc[i].y);
-    K::Point_2 nv = t.nearest_vertex(p) -> point();
-    
-    K::FT min_dist = K::FT(h + ptc[i].r) * K::FT(h + ptc[i].r);
-    
-    if(CGAL::squared_distance(nv, p) >= min_dist) sol.push_back(i);
-  }
-  
-  if(sol.size() == 0) {
-    
-    int left = 0, right = n-1, curr;
+  int left = 0, right = n-1, curr;
+  std::vector<bool> survived(m, true);
 
-    while(left <= right){
+  while(left <= right){
+    
+    int count = 0;
+    curr = (left + right) / 2;
+
+    Triangulation t;
+    t.insert(pts.begin() + left, pts.begin() + curr + 1);
+    
+    std::vector<bool> tmp(m, false);
+    for(int i=0; i<m; i++) {
       
-      int count = 0;
-      
-      curr = (right + left) / 2;
-      
-      Triangulation t;
-      t.insert(pts.begin(), pts.begin() + curr);
-      
-      std::vector<int> tmp;
-      for(int i=0; i<m; i++) {
-        
+      if(survived[i]) {
         K::Point_2 p(ptc[i].x, ptc[i].y);
         K::Point_2 nv = t.nearest_vertex(p) -> point();
         
         K::FT min_dist = K::FT(h + ptc[i].r) * K::FT(h + ptc[i].r);
         
-        if(CGAL::squared_distance(nv, p) >= min_dist) { tmp.push_back(i); count++;}
+        if(CGAL::squared_distance(nv, p) >= min_dist) { 
+          tmp[i] = true; 
+          count++;
+        }
+        
       }
-      
-      if(count > 0) sol = tmp;
-      
-      if(count == 0) right = curr - 1;
-      else left = curr + 1;
-    
     }
     
+    if(count > 0) {
+      survived = tmp;
+    }
+    
+    if(count == 0) right = curr - 1;
+    else left = curr + 1;
+  
   }
-  for(std::size_t i=0; i<sol.size(); i++) std::cout << sol[i] << ' ';
+    
+  
+  for(int i=0; i<m; i++) if(survived[i]) std::cout << i << ' ';
   std::cout << std::endl;
 }
 
