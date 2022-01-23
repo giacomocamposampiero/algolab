@@ -61,15 +61,15 @@ In this course students learn how to solve algorithmic problems given by a textu
           <td> <a href="./problems/fighting-pits-meereen/"> Fighting Pits of Meereen </a> </td>
           <td> dynamic programming </td>
         </tr>
-          <tr>
+        <tr>
           <td> <a href="./problems/lannister/"> Lannister </a> </td>
           <td> linear programming </td>
         </tr>
         <tr>
-        <tr>
           <td> <a href="./problems/the-iron-islands/"> The Iron Islands </a> </td>
           <td> sliding window, partial sums, maps </td>
         </tr>
+        <tr>
           <td rowspan=1> Sherlock Holmes</td>
           <td> <a href="./problems/great-game/"> The Great Game </a> </td>
           <td> dynamic programming </td>
