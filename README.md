@@ -15,7 +15,7 @@ In this course students learn how to solve algorithmic problems given by a textu
 | 8 |[Suez](./problems/suez/)|[Bistro](./problems/bistro/)|[Germs](./problems/germs/)|[H1N1](./problems/h1n1/)|[Light the Stage](./problems/light-the-stage/)|
 | 9 |[Kingdom Defence](./problems/kingdom-defence/)|[Real Estate](./problems/real-estate/)|[Placing Knights](./problems/placing-knights)|[Algocoon Group](./problems/algocoon-group/)|[Canteen](./problems/canteen/)|
 | 10 |[Golden Eye](./problems/golden-eye/)|[Worldcup](./problems/worldcup/)|[Asterix in Switzerland](./problems/asterix-in-switzerland/)|[Asterix and the Chariot Race](./problems/asterix-and-the-chariot-race/)|[Evolution](./problems/evolution/)|
-| 11 |[Phantom Menace](./problems/phantom-menace/)|[Idefix](./problems/idefix/)| | | |
+| 11 |[Phantom Menace](./problems/phantom-menace/)|[Idefix](./problems/idefix/)| | |[The Iron Islands](./problems/the-iron-islands/)|
 | 12 | |[Hong Kong](./problems/hong-kong/)| | | |
 | 13 | | | | | |
 | 14 | [India](./problems/india/)| | | | |
@@ -57,7 +57,7 @@ In this course students learn how to solve algorithmic problems given by a textu
           <td> triangulation </td>
         </tr>
         <tr>
-          <td rowspan=2> Game of Thrones</td>
+          <td rowspan=3> Game of Thrones</td>
           <td> <a href="./problems/fighting-pits-meereen/"> Fighting Pits of Meereen </a> </td>
           <td> dynamic programming </td>
         </tr>
@@ -69,6 +69,10 @@ In this course students learn how to solve algorithmic problems given by a textu
           <td rowspan=1> Sherlock Holmes</td>
           <td> <a href="./problems/great-game/"> The Great Game </a> </td>
           <td> dynamic programming </td>
+        </tr>
+        <tr>
+          <td> <a href="./problems/the-iron-islands/"> The Iron Islands </a> </td>
+          <td> sliding window, partial sums, maps </td>
         </tr>
         <tr>
           <td rowspan=4> <br>Around the World in Eighty Days</br> </td>
