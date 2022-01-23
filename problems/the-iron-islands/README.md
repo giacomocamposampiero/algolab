@@ -8,9 +8,9 @@ For these one, we have to come up with some new idea. Visiting every branch star
 visited islands in the two branches. Since the lookups and the insertions are *O(1)* in average, using an `std::unordered_map` to store complementary values, the overall algorithm would have a total complexity which is **in average** linear in the number of islands. 
 
 ### The problem in a nuthsell
-**Algorithmic description**
+#### Algorithmic description
 We are given a tree with only branches of degree 2 (see picture). Each node has a property. We are asked to find a consecutive sequence of nodes of maximum length such that the sum of the properties is exactly equal to k.
-**Solution**
+####  Solution
 This sounds like a sliding window problem. However, this technique allows to only inspect sequences on the same branch.
 To match sequences on different branches, precomputation is needed.
 Calculate for each branch the current sum at every index and store the longest sequence in a map<sum, number_of_nodes>.
