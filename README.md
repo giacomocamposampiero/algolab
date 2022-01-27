@@ -17,7 +17,7 @@ In this course students learn how to solve algorithmic problems given by a textu
 | 10 |[Golden Eye](./problems/golden-eye/)|[Worldcup](./problems/worldcup/)|[Asterix in Switzerland](./problems/asterix-in-switzerland/)|[Asterix and the Chariot Race](./problems/asterix-and-the-chariot-race/)|[Evolution](./problems/evolution/)|
 | 11 |[Phantom Menace](./problems/phantom-menace/)|[Idefix](./problems/idefix/)| | |[The Iron Islands](./problems/the-iron-islands/)|
 | 12 | |[Hong Kong](./problems/hong-kong/)| | | |
-| 13 | | | | | |
+| 13 | | | |[Hand](./problems/hand/)| |
 | 14 | [India](./problems/india/)| | | | |
 
 ## Past exams
@@ -57,13 +57,17 @@ In this course students learn how to solve algorithmic problems given by a textu
           <td> triangulation </td>
         </tr>
         <tr>
-          <td rowspan=3> Game of Thrones</td>
+          <td rowspan=4> Game of Thrones</td>
           <td> <a href="./problems/fighting-pits-meereen/"> Fighting Pits of Meereen </a> </td>
           <td> dynamic programming </td>
         </tr>
         <tr>
           <td> <a href="./problems/lannister/"> Lannister </a> </td>
           <td> linear programming </td>
+        </tr>
+        <tr>
+          <td> <a href="./problems/hand/"> Hand </a> </td>
+          <td> clustering with triangulation </td>
         </tr>
         <tr>
           <td> <a href="./problems/the-iron-islands/"> The Iron Islands </a> </td>
