@@ -17,7 +17,7 @@ In this course students learn how to solve algorithmic problems given by a textu
 | 10 |[Golden Eye](./problems/golden-eye/)|[Worldcup](./problems/worldcup/)|[Asterix in Switzerland](./problems/asterix-in-switzerland/)|[Asterix and the Chariot Race](./problems/asterix-and-the-chariot-race/)|[Evolution](./problems/evolution/)|
 | 11 |[Phantom Menace](./problems/phantom-menace/)|[Idefix](./problems/idefix/)| | |[The Iron Islands](./problems/the-iron-islands/)|
 | 12 |[San Francisco](./problems/san-francisco/)|[Hong Kong](./problems/hong-kong/)| | | |
-| 13 | | | |[Hand](./problems/hand/)|[Lugo Bagman](./problems/lugo-bagman/)|
+| 13 | |[Hagrid](./problems/hagrid/)| |[Hand](./problems/hand/)|[Ludo Bagman](./problems/ludo-bagman/)|
 | 14 | [India](./problems/india/)| | | | |
 
 ## Past exams
@@ -48,7 +48,7 @@ In this course students learn how to solve algorithmic problems given by a textu
           <td> triangulation </td>
         </tr>
         <tr>
-          <td rowspan=3> Harry Potter </td>
+          <td rowspan=4> Harry Potter </td>
           <td> <a href="./problems/severus-snape/"> Severus Snape </a> </td>
           <td> dynamic programming </td>
         </tr>
@@ -59,6 +59,10 @@ In this course students learn how to solve algorithmic problems given by a textu
         <tr>
           <td> <a href="./problems/ludo-bagman/"> Ludo Bagman </a> </td>
           <td> min cost max flow </td>
+        </tr>
+        <tr>
+          <td> <a href="./problems/hagrid/"> Hagrid </a> </td>
+          <td> DFS, greedy </td>
         </tr>
         <tr>
           <td rowspan=4> Game of Thrones</td>

@@ -4,66 +4,74 @@
 #include <algorithm>
 #include <functional>
 
-int sium_subtree(int index, std::vector<std::vector<std::pair<int,int>>> &adj, std::vector<long> &sum) {
-  if(adj[index].empty()) return 0;
-  int subtree = 0;
-  for(int i=0, size=adj[index].size(); i<size; i++) {
-    sum[adj[index][i].first] = sium_subtree(adj[index][i].first, adj, sum) + adj[index][i].second;
-    subtree += sum[adj[index][i].first];
+struct chamber {
+  long galleons;
+  long length;
+  double subtree_t;
+  double subtree_n;
+  std::vector<chamber*> descendants;
+};
+
+int n;
+
+std::pair<long,long> precomputation(chamber &c) {
+
+  std::pair<long,long> sub = {c.length,1};
+
+  for(size_t i=0; i<c.descendants.size(); i++) {
+    auto x = precomputation(*(c.descendants[i]));
+    sub.first += x.first;
+    sub.second += x.second;
   }
-  return subtree;
+  
+  std::sort(c.descendants.begin(), c.descendants.end(), [](const auto a, const auto b) {
+    return ((*a).subtree_t / (*a).subtree_n) < ((*b).subtree_t / (*b).subtree_n);
+  });
+  
+  c.subtree_t = sub.first;
+  c.subtree_n = sub.second;
+  return sub;
+  
+}
+
+long visit(chamber &c, long *timing) {
+  
+  (*timing) += c.length;
+  long gall = c.galleons - (*timing);
+  
+  std::vector<chamber> to_visit;
+
+  for(size_t i=0; i<c.descendants.size(); i++) gall += visit(*(c.descendants[i]), timing);
+  
+  *timing += c.length;
+  return gall;
+  
 }
 
 void testcase() {
   
-  int n; std::cin >> n;
+  std::cin >> n;
   
-  std::vector<int> gold = std::vector<int>(n+1, 0);
-  for(int i=1; i<=n; i++) std::cin >> gold[i];
+  std::vector<chamber> cs(n+1);
+  for(int i=1; i<=n; i++) 
+    std::cin >> cs[i].galleons;
   
-  std::vector<std::vector<std::pair<int,int>>> adjacency = std::vector<std::vector<std::pair<int,int>>>(n+1);
-
-  for(int i=0; i<n; i++) {
+  for(int i=1; i<=n; i++) {
     int u, v, l; std::cin >> u >> v >> l;
-    adjacency[u].push_back(std::make_pair(v, l)); 
+    cs[u].descendants.push_back(&cs[v]);
+    cs[v].length = l;
   }
   
-  std::vector<long> subtrees = std::vector<long>(n+1, 0);
-  sium_subtree(0, adjacency, subtrees);
-  
-  std::stack<std::pair<int,int>> stack = std::stack<std::pair<int,int>>();
-  long count = 0, galleons = 0;
-  stack.push(std::make_pair(0,0));
+  precomputation(cs[0]);
 
-  while(!stack.empty()) {
-    std::pair<int,int> current = stack.top();
-    
-    if(gold[current.first] > 0) {
-      count += current.second; 
-      galleons += gold[current.first] - count;
-      gold[current.first] = 0;
-    }
-
-    std::vector<std::pair<int,int>> children = adjacency[current.first];
-    
-    if(children.size() > 0) {
-      std::sort(children.begin(), children.end(), [&subtrees](std::pair<int,int> a, std::pair<int,int> b) {
-        return subtrees[a.first] > subtrees[b.first];
-      });
-      for(auto x : children) stack.push(x);
-      adjacency[current.first].clear();
-    } else {
-      count += current.second;
-      stack.pop();
-    }
-    
-  }
+  long t = 0;
+  long gold = visit(cs[0], &t);
   
-  std::cout << galleons << std::endl;
+  std::cout << gold << std::endl;
 }
 
 int main() {
   std::ios_base::sync_with_stdio(false);
   int t; std::cin >> t;
-  for(int i=0; i<t; i++) testcase();
+  while(t--) testcase();
 }
