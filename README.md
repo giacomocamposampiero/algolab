@@ -83,10 +83,6 @@ In this course students learn how to solve algorithmic problems given by a textu
           <td> dynamic programming </td>
         </tr>
         <tr>
-          <td> <a href="./problems/lugo-bagman/"> Lugo Bagman </a> </td>
-          <td> min cost max flow </td>
-        </tr>
-        <tr>
           <td rowspan=5> <br>Around the World in Eighty Days</br> </td>
           <td> <a href="./problems/india/"> India </a> </td>
           <td> maximum flow, binary search </td>
