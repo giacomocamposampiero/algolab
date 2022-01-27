@@ -17,7 +17,7 @@ In this course students learn how to solve algorithmic problems given by a textu
 | 10 |[Golden Eye](./problems/golden-eye/)|[Worldcup](./problems/worldcup/)|[Asterix in Switzerland](./problems/asterix-in-switzerland/)|[Asterix and the Chariot Race](./problems/asterix-and-the-chariot-race/)|[Evolution](./problems/evolution/)|
 | 11 |[Phantom Menace](./problems/phantom-menace/)|[Idefix](./problems/idefix/)| | |[The Iron Islands](./problems/the-iron-islands/)|
 | 12 | |[Hong Kong](./problems/hong-kong/)| | | |
-| 13 | | | |[Hand](./problems/hand/)| |
+| 13 | | | |[Hand](./problems/hand/)|[Lugo Badman](./problems/lugo-badman/)|
 | 14 | [India](./problems/india/)| | | | |
 
 ## Past exams
@@ -74,9 +74,13 @@ In this course students learn how to solve algorithmic problems given by a textu
           <td> sliding window, partial sums, maps </td>
         </tr>
         <tr>
-          <td rowspan=1> Sherlock Holmes</td>
+          <td rowspan=2> Sherlock Holmes</td>
           <td> <a href="./problems/great-game/"> The Great Game </a> </td>
           <td> dynamic programming </td>
+        </tr>
+        <tr>
+          <td> <a href="./problems/lugo-badman/"> Lugo Badman </a> </td>
+          <td> min cost max flow </td>
         </tr>
         <tr>
           <td rowspan=4> <br>Around the World in Eighty Days</br> </td>
