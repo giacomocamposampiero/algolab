@@ -16,8 +16,13 @@ In this course students learn how to solve algorithmic problems given by a textu
 | 9 |[Kingdom Defence](./problems/kingdom-defence/)|[Real Estate](./problems/real-estate/)|[Placing Knights](./problems/placing-knights)|[Algocoon Group](./problems/algocoon-group/)|[Canteen](./problems/canteen/)|
 | 10 |[Golden Eye](./problems/golden-eye/)|[Worldcup](./problems/worldcup/)|[Asterix in Switzerland](./problems/asterix-in-switzerland/)|[Asterix and the Chariot Race](./problems/asterix-and-the-chariot-race/)|[Evolution](./problems/evolution/)|
 | 11 |[Phantom Menace](./problems/phantom-menace/)|[Idefix](./problems/idefix/)| | |[The Iron Islands](./problems/the-iron-islands/)|
+<<<<<<< HEAD
 | 12 |[San Francisco](./problems/san-francisco/)|[Hong Kong](./problems/hong-kong/)| | | |
 | 13 | | | |[Hand](./problems/hand/)|[Lugo Badman](./problems/lugo-badman/)|
+=======
+| 12 | |[Hong Kong](./problems/hong-kong/)| | | |
+| 13 | | | |[Hand](./problems/hand/)|[Ludo Bagman](./problems/ludo-bagman/)|
+>>>>>>> d3650163aaed3637973e6e50a7024adaa443c38b
 | 14 | [India](./problems/india/)| | | | |
 
 ## Past exams
@@ -48,13 +53,17 @@ In this course students learn how to solve algorithmic problems given by a textu
           <td> triangulation </td>
         </tr>
         <tr>
-          <td rowspan=2> Harry Potter </td>
+          <td rowspan=3> Harry Potter </td>
           <td> <a href="./problems/severus-snape/"> Severus Snape </a> </td>
           <td> dynamic programming </td>
         </tr>
         <tr>
           <td> <a href="./problems/hong-kong/"> Dean Thomas </a> </td>
           <td> triangulation </td>
+        </tr>
+        <tr>
+          <td> <a href="./problems/ludo-bagman/"> Ludo Bagman </a> </td>
+          <td> min cost max flow </td>
         </tr>
         <tr>
           <td rowspan=4> Game of Thrones</td>
@@ -74,7 +83,7 @@ In this course students learn how to solve algorithmic problems given by a textu
           <td> sliding window, partial sums, maps </td>
         </tr>
         <tr>
-          <td rowspan=2> Sherlock Holmes</td>
+          <td rowspan=1> Sherlock Holmes</td>
           <td> <a href="./problems/great-game/"> The Great Game </a> </td>
           <td> dynamic programming </td>
         </tr>
