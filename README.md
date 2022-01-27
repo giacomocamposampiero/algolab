@@ -48,13 +48,17 @@ In this course students learn how to solve algorithmic problems given by a textu
           <td> triangulation </td>
         </tr>
         <tr>
-          <td rowspan=2> Harry Potter </td>
+          <td rowspan=3> Harry Potter </td>
           <td> <a href="./problems/severus-snape/"> Severus Snape </a> </td>
           <td> dynamic programming </td>
         </tr>
         <tr>
           <td> <a href="./problems/hong-kong/"> Dean Thomas </a> </td>
           <td> triangulation </td>
+        </tr>
+        <tr>
+          <td> <a href="./problems/lugo-badman/"> Lugo Badman </a> </td>
+          <td> min cost max flow </td>
         </tr>
         <tr>
           <td rowspan=4> Game of Thrones</td>
@@ -74,13 +78,9 @@ In this course students learn how to solve algorithmic problems given by a textu
           <td> sliding window, partial sums, maps </td>
         </tr>
         <tr>
-          <td rowspan=2> Sherlock Holmes</td>
+          <td rowspan=1> Sherlock Holmes</td>
           <td> <a href="./problems/great-game/"> The Great Game </a> </td>
           <td> dynamic programming </td>
-        </tr>
-        <tr>
-          <td> <a href="./problems/lugo-badman/"> Lugo Badman </a> </td>
-          <td> min cost max flow </td>
         </tr>
         <tr>
           <td rowspan=4> <br>Around the World in Eighty Days</br> </td>
