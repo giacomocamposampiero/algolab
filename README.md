@@ -17,7 +17,7 @@ In this course students learn how to solve algorithmic problems given by a textu
 | 10 |[Golden Eye](./problems/golden-eye/)|[Worldcup](./problems/worldcup/)|[Asterix in Switzerland](./problems/asterix-in-switzerland/)|[Asterix and the Chariot Race](./problems/asterix-and-the-chariot-race/)|[Evolution](./problems/evolution/)|
 | 11 |[Phantom Menace](./problems/phantom-menace/)|[Idefix](./problems/idefix/)| | |[The Iron Islands](./problems/the-iron-islands/)|
 | 12 | |[Hong Kong](./problems/hong-kong/)| | | |
-| 13 | | | |[Hand](./problems/hand/)|[Lugo Badman](./problems/lugo-badman/)|
+| 13 | | | |[Hand](./problems/hand/)|[Ludo Badman](./problems/ludo-badman/)|
 | 14 | [India](./problems/india/)| | | | |
 
 ## Past exams
