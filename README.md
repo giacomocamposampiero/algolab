@@ -16,7 +16,7 @@ In this course students learn how to solve algorithmic problems given by a textu
 | 9 |[Kingdom Defence](./problems/kingdom-defence/)|[Real Estate](./problems/real-estate/)|[Placing Knights](./problems/placing-knights)|[Algocoon Group](./problems/algocoon-group/)|[Canteen](./problems/canteen/)|
 | 10 |[Golden Eye](./problems/golden-eye/)|[Worldcup](./problems/worldcup/)|[Asterix in Switzerland](./problems/asterix-in-switzerland/)|[Asterix and the Chariot Race](./problems/asterix-and-the-chariot-race/)|[Evolution](./problems/evolution/)|
 | 11 |[Phantom Menace](./problems/phantom-menace/)|[Idefix](./problems/idefix/)| | |[The Iron Islands](./problems/the-iron-islands/)|
-| 12 | |[Hong Kong](./problems/hong-kong/)| | | |
+| 12 |[San Francisco](./problems/san-francisco/)|[Hong Kong](./problems/hong-kong/)| | | |
 | 13 | | | |[Hand](./problems/hand/)|[Lugo Badman](./problems/lugo-badman/)|
 | 14 | [India](./problems/india/)| | | | |
 
@@ -83,13 +83,17 @@ In this course students learn how to solve algorithmic problems given by a textu
           <td> min cost max flow </td>
         </tr>
         <tr>
-          <td rowspan=4> <br>Around the World in Eighty Days</br> </td>
+          <td rowspan=5> <br>Around the World in Eighty Days</br> </td>
           <td> <a href="./problems/india/"> India </a> </td>
           <td> maximum flow, binary search </td>
         </tr>
         <tr>
           <td> <a href="./problems/hong-kong/"> Hong Kong </a> </td>
           <td> triangulation </td>
+        </tr>
+        <tr>
+          <td> <a href="./problems/san-francisco/"> San Francisco</a> </td>
+          <td> DP </td>
         </tr>
         <tr>
           <td> <a href="./problems/london/"> London </a> </td>
