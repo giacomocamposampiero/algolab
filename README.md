@@ -57,7 +57,7 @@ In this course students learn how to solve algorithmic problems given by a textu
           <td> triangulation </td>
         </tr>
         <tr>
-          <td> <a href="./problems/lugo-badman/"> Lugo Badman </a> </td>
+          <td> <a href="./problems/ludo-badman/"> Ludo Badman </a> </td>
           <td> min cost max flow </td>
         </tr>
         <tr>
