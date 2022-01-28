@@ -15,9 +15,9 @@ In this course students learn how to solve algorithmic problems given by a textu
 | 8 |[Suez](./problems/suez/)|[Bistro](./problems/bistro/)|[Germs](./problems/germs/)|[H1N1](./problems/h1n1/)|[Light the Stage](./problems/light-the-stage/)|
 | 9 |[Kingdom Defence](./problems/kingdom-defence/)|[Real Estate](./problems/real-estate/)|[Placing Knights](./problems/placing-knights)|[Algocoon Group](./problems/algocoon-group/)|[Canteen](./problems/canteen/)|
 | 10 |[Golden Eye](./problems/golden-eye/)|[Worldcup](./problems/worldcup/)|[Asterix in Switzerland](./problems/asterix-in-switzerland/)|[Asterix and the Chariot Race](./problems/asterix-and-the-chariot-race/)|[Evolution](./problems/evolution/)|
-| 11 |[Phantom Menace](./problems/phantom-menace/)|[Idefix](./problems/idefix/)| | |[The Iron Islands](./problems/the-iron-islands/)|
+| 11 |[Phantom Menace](./problems/phantom-menace/)|[Idefix](./problems/idefix/)|[The Return of the Jedi](./problems/the-return-of-the-jedi/)| |[The Iron Islands](./problems/the-iron-islands/)|
 | 12 |[San Francisco](./problems/san-francisco/)|[Hong Kong](./problems/hong-kong/)| | | |
-| 13 | |[Hagrid](./problems/hagrid/)| |[Hand](./problems/hand/)|[Ludo Bagman](./problems/ludo-bagman/)|
+| 13 |[Clues](./problems/clues/) |[Hagrid](./problems/hagrid/)| | [Hand](./problems/hand/)|[Ludo Bagman](./problems/ludo-bagman/)|
 | 14 | [India](./problems/india/)| | | | |
 
 ## Past exams
@@ -45,7 +45,7 @@ In this course students learn how to solve algorithmic problems given by a textu
         </tr>
         <tr>
           <td> <a href="./problems/idefix/"> Idefix </a> </td>
-          <td> triangulation </td>
+          <td> triangulation, union-find </td>
         </tr>
         <tr>
           <td rowspan=4> Harry Potter </td>
@@ -75,16 +75,20 @@ In this course students learn how to solve algorithmic problems given by a textu
         </tr>
         <tr>
           <td> <a href="./problems/hand/"> Hand </a> </td>
-          <td> clustering with triangulation </td>
+          <td> clustering with triangulation, union-find</td>
         </tr>
         <tr>
           <td> <a href="./problems/the-iron-islands/"> The Iron Islands </a> </td>
           <td> sliding window, partial sums, maps </td>
         </tr>
         <tr>
-          <td rowspan=1> Sherlock Holmes</td>
+          <td rowspan=2> Sherlock Holmes</td>
           <td> <a href="./problems/great-game/"> The Great Game </a> </td>
           <td> dynamic programming </td>
+        </tr>
+        <tr>
+          <td> <a href="./problems/clues/"> Clues </a> </td>
+          <td> triangulation, union-find, graph coloring </td>
         </tr>
         <tr>
           <td rowspan=5> <br>Around the World in Eighty Days</br> </td>
@@ -108,9 +112,13 @@ In this course students learn how to solve algorithmic problems given by a textu
           <td> linear programming </td>
         </tr>
         <tr>
-          <td rowspan=1> <br>Star Wars</br> </td>
+          <td rowspan=2> <br>Star Wars</br> </td>
           <td> <a href="./problems/phantom-menace/"> Phantom Menace </a> </td>
           <td> minimum cut (flows)</td>
+        </tr>
+        <tr>
+          <td> <a href="./problems/the-return-of-the-jedi/"> The Return of the Jedi</a> </td>
+          <td> graph problem, union-find </td>
         </tr>
         <tr>
           <td rowspan=3> <center>James Bond</center> </td>
