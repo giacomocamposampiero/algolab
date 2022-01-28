@@ -15,7 +15,7 @@ In this course students learn how to solve algorithmic problems given by a textu
 | 8 |[Suez](./problems/suez/)|[Bistro](./problems/bistro/)|[Germs](./problems/germs/)|[H1N1](./problems/h1n1/)|[Light the Stage](./problems/light-the-stage/)|
 | 9 |[Kingdom Defence](./problems/kingdom-defence/)|[Real Estate](./problems/real-estate/)|[Placing Knights](./problems/placing-knights)|[Algocoon Group](./problems/algocoon-group/)|[Canteen](./problems/canteen/)|
 | 10 |[Golden Eye](./problems/golden-eye/)|[Worldcup](./problems/worldcup/)|[Asterix in Switzerland](./problems/asterix-in-switzerland/)|[Asterix and the Chariot Race](./problems/asterix-and-the-chariot-race/)|[Evolution](./problems/evolution/)|
-| 11 |[Phantom Menace](./problems/phantom-menace/)|[Idefix](./problems/idefix/)|[The Return of the Jedi](./problems/the-return-of-the-jedi/)| |[The Iron Islands](./problems/the-iron-islands/)|
+| 11 |[Phantom Menace](./problems/phantom-menace/)|[Idefix](./problems/idefix/)|[Return of the Jedi](./problems/return-of-the-jedi/)| |[The Iron Islands](./problems/the-iron-islands/)|
 | 12 |[San Francisco](./problems/san-francisco/)|[Hong Kong](./problems/hong-kong/)| | | |
 | 13 |[Clues](./problems/clues/) |[Hagrid](./problems/hagrid/)| | [Hand](./problems/hand/)|[Ludo Bagman](./problems/ludo-bagman/)|
 | 14 | [India](./problems/india/)| | | | |
@@ -117,7 +117,7 @@ In this course students learn how to solve algorithmic problems given by a textu
           <td> minimum cut (flows)</td>
         </tr>
         <tr>
-          <td> <a href="./problems/the-return-of-the-jedi/"> The Return of the Jedi</a> </td>
+          <td> <a href="./problems/return-of-the-jedi/"> Return of the Jedi</a> </td>
           <td> graph problem, union-find </td>
         </tr>
         <tr>
