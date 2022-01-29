@@ -15,7 +15,7 @@ In this course students learn how to solve algorithmic problems given by a textu
 | 8 |[Suez](./problems/suez/)|[Bistro](./problems/bistro/)|[Germs](./problems/germs/)|[H1N1](./problems/h1n1/)|[Light the Stage](./problems/light-the-stage/)|
 | 9 |[Kingdom Defence](./problems/kingdom-defence/)|[Real Estate](./problems/real-estate/)|[Placing Knights](./problems/placing-knights)|[Algocoon Group](./problems/algocoon-group/)|[Canteen](./problems/canteen/)|
 | 10 |[Golden Eye](./problems/golden-eye/)|[Worldcup](./problems/worldcup/)|[Asterix in Switzerland](./problems/asterix-in-switzerland/)|[Asterix and the Chariot Race](./problems/asterix-and-the-chariot-race/)|[Evolution](./problems/evolution/)|
-| 11 |[Phantom Menace](./problems/phantom-menace/)|[Idefix](./problems/idefix/)|[Return of the Jedi](./problems/return-of-the-jedi/)| |[The Iron Islands](./problems/the-iron-islands/)|
+| 11 |[Phantom Menace](./problems/phantom-menace/)|[Idefix](./problems/idefix/)|[Return of the Jedi](./problems/return-of-the-jedi/)|[Asterix and the Roman Legions](./problems/asterix-and-the-roman-legions/)|[The Iron Islands](./problems/the-iron-islands/)|
 | 12 |[San Francisco](./problems/san-francisco/)|[On Her Majesty's Secret Service](./problems/secret-service)|[Hong Kong](./problems/hong-kong/)| | |
 | 13 |[Clues](./problems/clues/) |[Hagrid](./problems/hagrid/)|[Punch](./problems/punch/)| [Hand](./problems/hand/)|[Ludo Bagman](./problems/ludo-bagman/)|
 | 14 | [India](./problems/india/)| | | | |
@@ -31,13 +31,17 @@ In this course students learn how to solve algorithmic problems given by a textu
     </thead>
     <tbody>
         <tr>
-          <td rowspan=4> The Adventures of Astérix </td>
+          <td rowspan=5> The Adventures of Astérix </td>
           <td> <a href="./problems/asterix-the-gaul/"> Asterix the Gaul </a> </td>
           <td> greedy, binary search, split&list </td>
         </tr>
         <tr>
           <td> <a href="./problems/asterix-in-switzerland/"> Asterix in Switzerland </a> </td>
           <td> maximum flow </td>
+        </tr>
+        <tr>
+          <td> <a href="./problems/asterix-and-the-roman-legions"> Asterix and the Roman Legions </a> </td>
+          <td> LP </td>
         </tr>
         <tr>
           <td> <a href="./problems/asterix-and-the-chariot-race/"> Asterix and the Chariot Race </a> </td>
