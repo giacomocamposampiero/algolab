@@ -16,8 +16,8 @@ In this course students learn how to solve algorithmic problems given by a textu
 | 9 |[Kingdom Defence](./problems/kingdom-defence/)|[Real Estate](./problems/real-estate/)|[Placing Knights](./problems/placing-knights)|[Algocoon Group](./problems/algocoon-group/)|[Canteen](./problems/canteen/)|
 | 10 |[Golden Eye](./problems/golden-eye/)|[Worldcup](./problems/worldcup/)|[Asterix in Switzerland](./problems/asterix-in-switzerland/)|[Asterix and the Chariot Race](./problems/asterix-and-the-chariot-race/)|[Evolution](./problems/evolution/)|
 | 11 |[Phantom Menace](./problems/phantom-menace/)|[Idefix](./problems/idefix/)|[The Return of the Jedi](./problems/the-return-of-the-jedi/)| |[The Iron Islands](./problems/the-iron-islands/)|
-| 12 |[San Francisco](./problems/san-francisco/)|[Hong Kong](./problems/hong-kong/)| | | |
-| 13 |[Clues](./problems/clues/) |[Hagrid](./problems/hagrid/)| | [Hand](./problems/hand/)|[Ludo Bagman](./problems/ludo-bagman/)|
+| 12 |[San Francisco](./problems/san-francisco/)|[On Her Majesty's Secret Service](./problems/secret-service)|[Hong Kong](./problems/hong-kong/)| | |
+| 13 |[Clues](./problems/clues/) |[Hagrid](./problems/hagrid/)|[Punch](./problems/punch/)| [Hand](./problems/hand/)|[Ludo Bagman](./problems/ludo-bagman/)|
 | 14 | [India](./problems/india/)| | | | |
 
 ## Past exams
@@ -121,7 +121,7 @@ In this course students learn how to solve algorithmic problems given by a textu
           <td> graph problem, union-find </td>
         </tr>
         <tr>
-          <td rowspan=3> <center>James Bond</center> </td>
+          <td rowspan=4> <center>James Bond</center> </td>
           <td> <a href="./problems/from-russia/"> From Russia with Love </a> </td>
           <td> dynamic programming </td>
         </tr>
@@ -132,6 +132,10 @@ In this course students learn how to solve algorithmic problems given by a textu
         <tr>
           <td> <a href="./problems/golden-eye/"> Golden Eye </a> </td>
           <td> triangulation </td>
+        </tr>
+        <tr>
+          <td> <a href="./problems/secret-service/"> On Her Majesty's Secret Service </a> </td>
+          <td> shortest paths, binary search, capacity scheduling </td>
         </tr>
     </tbody>
 </table>
