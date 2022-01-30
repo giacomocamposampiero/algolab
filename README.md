@@ -16,7 +16,7 @@ In this course students learn how to solve algorithmic problems given by a textu
 | 9 |[Kingdom Defence](./problems/kingdom-defence/)|[Real Estate](./problems/real-estate/)|[Placing Knights](./problems/placing-knights)|[Algocoon Group](./problems/algocoon-group/)|[Canteen](./problems/canteen/)|
 | 10 |[Golden Eye](./problems/golden-eye/)|[Worldcup](./problems/worldcup/)|[Asterix in Switzerland](./problems/asterix-in-switzerland/)|[Asterix and the Chariot Race](./problems/asterix-and-the-chariot-race/)|[Evolution](./problems/evolution/)|
 | 11 |[Phantom Menace](./problems/phantom-menace/)|[Idefix](./problems/idefix/)|[Return of the Jedi](./problems/return-of-the-jedi/)|[Asterix and the Roman Legions](./problems/asterix-and-the-roman-legions/)|[The Iron Islands](./problems/the-iron-islands/)|
-| 12 |[San Francisco](./problems/san-francisco/)|[On Her Majesty's Secret Service](./problems/secret-service)|[Hong Kong](./problems/hong-kong/)| | |
+| 12 |[San Francisco](./problems/san-francisco/)|[On Her Majesty's Secret Service](./problems/secret-service)|[Hong Kong](./problems/hong-kong/)|[Car Sharing](./problems/car-sharing/)|[Bonus Level](./problems/bonus-level/)|
 | 13 |[Clues](./problems/clues/) |[Hagrid](./problems/hagrid/)|[Punch](./problems/punch/)| [Hand](./problems/hand/)|[Ludo Bagman](./problems/ludo-bagman/)|
 | 14 | [India](./problems/india/)| | | | |
 
