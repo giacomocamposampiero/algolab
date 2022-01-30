@@ -30,28 +30,6 @@ In this course students learn how to solve algorithmic problems given by a textu
         </tr>
     </thead>
     <tbody>
-        <tr>
-          <td rowspan=5> The Adventures of Astérix </td>
-          <td> <a href="./problems/asterix-the-gaul/"> Asterix the Gaul </a> </td>
-          <td> greedy, binary search, split&list </td>
-        </tr>
-        <tr>
-          <td> <a href="./problems/asterix-in-switzerland/"> Asterix in Switzerland </a> </td>
-          <td> maximum flow </td>
-        </tr>
-        <tr>
-          <td> <a href="./problems/asterix-and-the-roman-legions"> Asterix and the Roman Legions </a> </td>
-          <td> LP </td>
-        </tr>
-        <tr>
-          <td> <a href="./problems/asterix-and-the-chariot-race/"> Asterix and the Chariot Race </a> </td>
-          <td> DFS </td>
-        </tr>
-        <tr>
-          <td> <a href="./problems/idefix/"> Idefix </a> </td>
-          <td> triangulation, union-find </td>
-        </tr>
-        <tr>
           <td rowspan=4> Harry Potter </td>
           <td> <a href="./problems/severus-snape/"> Severus Snape </a> </td>
           <td> dynamic programming </td>
@@ -114,6 +92,28 @@ In this course students learn how to solve algorithmic problems given by a textu
         <tr>
           <td> <a href="./problems/suez/"> Suez </a> </td>
           <td> linear programming </td>
+        </tr>
+        <tr>
+        <tr>
+          <td rowspan=5> The Adventures of Astérix </td>
+          <td> <a href="./problems/asterix-the-gaul/"> Asterix the Gaul </a> </td>
+          <td> greedy, binary search, split&list </td>
+        </tr>
+        <tr>
+          <td> <a href="./problems/asterix-in-switzerland/"> Asterix in Switzerland </a> </td>
+          <td> maximum flow </td>
+        </tr>
+        <tr>
+          <td> <a href="./problems/asterix-and-the-roman-legions"> Asterix and the Roman Legions </a> </td>
+          <td> LP </td>
+        </tr>
+        <tr>
+          <td> <a href="./problems/asterix-and-the-chariot-race/"> Asterix and the Chariot Race </a> </td>
+          <td> DFS </td>
+        </tr>
+        <tr>
+          <td> <a href="./problems/idefix/"> Idefix </a> </td>
+          <td> triangulation, union-find </td>
         </tr>
         <tr>
           <td rowspan=2> <br>Star Wars</br> </td>
