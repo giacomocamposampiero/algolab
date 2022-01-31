@@ -3,7 +3,8 @@ In this problem we are required to find the maximum sum of lengths of non-overla
 From the given maximum size of the input, we can note that the solution must be at most *O(n \* m)*.  
 
 The first thing to do in this case is to find the sub-intervals (defined by the bounding indices **a_i** and **b_i**) in the sequence which satisfy the constraint 
-![equation](https://latex.codecogs.com/svg.image?\sum_{j=a_i}^{b_i}v_j)
+
+![equation](https://latex.codecogs.com/svg.image?\sum_{j=a_i}^{b_i}v_j=k)
 
 This can be done in linear time using a sliding window approach. For simplicity, the intervals are store in a new vector, which in position `i` contains the length of the interval (if there is an interval starting at `i`) or -1 in case there are no intervals starting in that position.
 
