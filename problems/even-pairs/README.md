@@ -1,5 +1,7 @@
 ## Even pairs
-This problem could be tackled using a naive n^3 solution, by summing for all pairs i ≤ j all the values xi +···+xj. However, this solution is *O(n^3)* and is fast enough to pass only the first test set.
+In this proble, we are required to find the number of even pairs (i.e. which sums up to an even number) in a given sequence. 
+
+This problem could be tackled using a naive n^3 solution, by summing for all pairs i ≤ j all the values `xi + ··· + xj`. However, this solution would have complexity *O(n^3)*, which is fast enough to pass only the first test set.
 
 A possible improvement to this solution is to pre-compute the partial sum in the vector of integers. This allows us to speed up our algorithm to *O(n^2)*, as we no longer need to compute the sum for every pair i and j. 
 
