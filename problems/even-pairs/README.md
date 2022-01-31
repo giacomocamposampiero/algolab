@@ -13,7 +13,7 @@ Still, we can improve improve our solution even more, by observing that the sum 
 There are three groups of test sets, worth 100 points in total.
 1. For the first group of test sets, worth 40 points, you may assume that 1 <= n <= 200.
 2. For the second group of test sets, worth 40 points, you may assume that 1 <= n <= 5000. 
-3. 3. For the third group of test sets, worth 20 points, there are no additional assumptions.
+3. For the third group of test sets, worth 20 points, there are no additional assumptions.
 
 ### Results 
 ```
