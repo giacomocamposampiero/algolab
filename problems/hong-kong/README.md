@@ -12,6 +12,32 @@ This problem is identhical (from an algorithmic perspective) to the test exam **
 **Pitfall**
 - EPIC kernel use `double` variables as storing point for `K::FT` values. In this case, using EPIC kernel resulted in an overflow error for a single test case in both Testset 2 and 3. EPEC kernel solves the issue.
 
+### Pseudocode for precomputation
+```
+initialize priority queue which stores pairs <clearance of the face, triangulation face>
+
+for each face of the triangulation
+
+   if face is infinite
+      emplace <+inf, face> in the queue
+   else 
+      emplace <distance between Voronoi vertex (dual of Delauny's face), face> in the queue
+   set face -> info() = 0
+ 
+ while the queue is not empty
+  
+   pop first element of the queue (maximum escape distance)
+   
+   if popped clearance < face -> info(), continue
+   fface -> info() = clearance
+   
+   for every neighboring face
+      
+      if neighboring face is infinite or face -> info() is already set, continue
+      compute the length of the edge which is shared by the two faces
+      emplace <minimum(edge length, face clearance), neighboring face> in the queue
+```
+
 ### Results
 ```
    Test set 1 (30 pts / 2 s) : Correct answer      (1.082s)
