@@ -7,16 +7,6 @@ For the first half of the points, the number of brances is low enough to brute-f
 For these one, we have to come up with some new idea. Visiting every branch starting from the root, we can observe that only one value is appropriate to complement the current partial sum of soldiers. Saving the best number of islands which can visited with a given number of soldier, we might be able to determine for every partial sum value if there is a corresponding complement in the other island and to compute the total number of islands that would be covered by the sum of the
 visited islands in the two branches. Since the lookups and the insertions are *O(1)* in average, using an `std::unordered_map` to store complementary values, the overall algorithm would have a total complexity which is **in average** linear in the number of islands. 
 
-### The problem in a nuthsell
-#### Algorithmic description
-We are given a tree with only branches of degree 2 (see picture). Each node has a property. We are asked to find a consecutive sequence of nodes of maximum length such that the sum of the properties is exactly equal to k.
-####  Solution
-This sounds like a sliding window problem. However, this technique allows to only inspect sequences on the same branch.
-To match sequences on different branches, precomputation is needed.
-Calculate for each branch the current sum at every index and store the longest sequence in a map<sum, number_of_nodes>.
-If I find a complementary sum in the map (such that the current sum + complementary sum = k – prop[node_0]) then update the maxcount variable:  maxcount = max(maxcount, j + complem[diff] + 1).
-Do not include in the precomputation the root of the tree (node 0, start from 1 in the precomputation).
-
 ### Results
 ```
    Test set 1 (25 pts / 2 s) : Correct answer      (0.44s)
