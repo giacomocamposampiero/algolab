@@ -8,7 +8,7 @@ Back on the tracks of the right solution, we can observe that the starting point
 - **covered**, when the corresponding node is not picked, but it's covered by at least one of its descendant
 - **not covered**, when the node is neither picked or covered by its descendant, and therefore need to be covered by its anchestor
 
-These states can be combined and progated through the tree using DFS. Starting from the root node, we can recursevely visity the tree and all its possible states. The cost values for each situation are computed as follows:
+These states can be combined and propagated through the tree using DFS. Starting from the root node, we can recursevely visity the tree and all its possible states. The cost values for each situation are computed as follows:
 
 - for the **not-covered** state, the cost is computed as the minimum between the sum of the covered state of its anchestors (it is not covered by its anchestors, and indeed those must be not picked and also not not-covered) and the picked result for the same node (it might be convenient to pick the node in some situation)
 - for the **covered** state, the cost is computed as the sum of covered state of the anchestors (which are already the optimum); it's important in this case to ensure that *at least one anchestor's cost* is selected as picked, otherwise the node won't be covered
