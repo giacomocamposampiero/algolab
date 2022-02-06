@@ -4,9 +4,9 @@ In this problem, we are required to find the subset of edges in a graph that, if
 A naive solution *O(m(m+n))* (that would still pass the first test set) could be to remove from the graph one edge at a time, and then check whether the graph is still connected or not. An improvement to this solution can be achieved using the method `boost::biconnected_components`, that label each edge with the biconnected component it belongs to. Observe that an edge that would cause an increase in the number of components is always alone in its biconnected component (otherwise we could
 prove that there is always another path connecting the components). 
 
-Therefore, we need to count the number *n_i*  of edges that belong to each biconnected component. The, iterate over all the edges of the graph and pick those where *n_i* equals to 1. Lastly, we need to sort them for an ordered output.
+Therefore, we need to count the number of edges that belong to each biconnected component. Then, iterate over all the edges of the graph and pick those whose count is equal to 1. Lastly, we need to sort the edges we found so far to get an ordered output.
 
-For achieving the score in the last test set, make sure to order properly *u*,*v* s.t. *u*<*v* for each *e*=(*u*,*v*)!
+For achieving the score in the last test set, make sure to order every edge `e` properly, s.t. `u < v` for each `e = (u,v)`!
 
 ### Results
 ```

@@ -4,9 +4,9 @@ In this problem, we are required to find the smallest subsequence of a list that
 - determine, for each triangle, which segments it contains
 - determine the smallest subsequence of triangle which contains all the segments
 
-For the first task, the use of CGAL is required. In this case, solving the problem is feasible using the less-expensive kernel, EPIC. In fact, the predicates `left_turn` and `right_turn` allow us to determine if a segment (defined by it's source and target points) are within the triangle or not. No construction are neeeded.
+For the first task, the use of CGAL is required. In this case, solving the problem is feasible using the less-expensive kernel, EPIC. In fact, the predicates `left_turn` and `right_turn` allow us to determine if a segment (defined by it's source and target points) is contained in the triangle or not. No construction are neeeded.
 
-The second task is a simple lookup of the smallest subsequence that satisfy a certain condition. So far we have already seen many examples of how to deal with this problem, and the use of a sliding window approach should be automathical. In this case, however, the sliding window approach can't be linear (we must check for every interval if all legs are contained). As a result, an *O(n^2)* will be the best that we can achieve, but given the input size (n,m < 2000) this should be fine.
+The second task is a simple lookup of the smallest subsequence that satisfy a certain condition. So far we have already seen many examples of how to deal with this problem, and the use of a sliding window approach should be automatic. In this case, however, the sliding window approach can't be linear (we must check for every interval if all legs are contained). As a result, an *O(n\*m)* will be the best that we can achieve, but given the input size (n,m < 2000) this should be fine.
 
 ### Results
 ```

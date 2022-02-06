@@ -48,7 +48,8 @@ void testcase() {
       demands += d;
     }
   }
-  
+    
+  long sup = 0;
   for(int i=0; i<p; i++) {
     int f, t, min, max; std::cin >> f >> t >> min >> max;
     demands += min;
