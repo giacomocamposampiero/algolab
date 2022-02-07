@@ -129,13 +129,17 @@ In this course students learn how to solve algorithmic problems given by a textu
           <td> graph problem, union-find </td>
         </tr>
         <tr>
-          <td rowspan=4> <center>James Bond</center> </td>
+          <td rowspan=5> <center>James Bond</center> </td>
           <td> <a href="./problems/from-russia/"> From Russia with Love </a> </td>
           <td> dynamic programming </td>
         </tr>
         <tr>
           <td> <a href="./problems/octopussy/"> Octopussy </a> </td>
           <td> greedy, binary trees </td>
+        </tr>
+        <tr>
+          <td> <a href="./problems/casino-royale/"> Casino Royale </a> </td>
+          <td> max flow min cost </td>
         </tr>
         <tr>
           <td> <a href="./problems/golden-eye/"> Golden Eye </a> </td>
