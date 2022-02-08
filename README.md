@@ -64,13 +64,17 @@ In this course students learn how to solve algorithmic problems given by a textu
           <td> sliding window, partial sums, maps </td>
         </tr>
         <tr>
-          <td rowspan=3> Sherlock Holmes</td>
+          <td rowspan=4> Sherlock Holmes</td>
           <td> <a href="./problems/great-game/"> The Great Game </a> </td>
           <td> dynamic programming </td>
         </tr>
         <tr>
           <td> <a href="./problems/surveillance-photographs/"> Surveillance Photographs </a> </td>
           <td> flow </td>
+        </tr>
+        <tr>
+          <td> <a href="./problems/lestrade/"> Lestrade </a> </td>
+          <td> triangulation, LP </td>
         </tr>
         <tr>
           <td> <a href="./problems/clues/"> Clues </a> </td>
