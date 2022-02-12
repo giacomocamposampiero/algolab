@@ -1,8 +1,10 @@
 # Algorithms Lab - HS2021
+This repo contains my solutions for the weekly exercise problems given in the course [Algorithms Lab](https://cadmo.ethz.ch/education/lectures/HS21/algolab/index.html) at ETH Zūrich, which I attended during Autumn Semester 2021. The repo also contains [@tarqluca](https://github.com/tarqluca)'s solutions, as well as his [recap](resources/recap.pdf) of all problems.
+
+## Course description
 In this course students learn how to solve algorithmic problems given by a textual, story-like description. We assume knowledge of elementary algorithms and data structures as they are typically taught on the Bachelor level. In tutorials we introduce more advanced algorithms and the usage of some standard libraries for combinatorial algorithms. Students practice their skills by solving weekly exercises. For that they have to understand the problem setting, find an appropriate modeling, choose suitable algorithms, and implement them using C/C++, BGL, and CGAL. The evaluation of the correctness and efficiency of their solutions will be performed by an online-judge which compiles the submitted source-code and runs it on a set of test instances.
 
-## Featured solutions
-
+## Problem solutions
 | Week  |  Problem Of The Week  |  1st problem  |  2nd problem  |  3rd problem  |  4th problem  |
 |:-----:|:---------------------:|:-------------:|:-------------:|:-------------:|:-------------:|
 | 1     ||[Build the Sum](./problems/build-sum/)|[Dominoes](./problems/dominoes/)|[Even Pairs](./problems/even-pairs/)|[Even Matrices](./problems/even-matrices/)|
@@ -21,6 +23,7 @@ In this course students learn how to solve algorithmic problems given by a textu
 | 14 | [India](./problems/india/)| | | | |
 
 ## Past exams
+In this section, problems are gouped by corresponding exam. The following list is by no means complete, but could be helpful if you're looking for a general glance on the topics examined.
 <table>
     <thead>
         <tr>
